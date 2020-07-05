@@ -1,13 +1,22 @@
 # Termux-Apktool
+
 apktool for termux all deb
+
 install package git
-apt install git
+
+$ apt install git
+
 download the apktool deb file
-git clone https://github.com/1Tech-X/Termux-Apktool.git
+
+$ git clone https://github.com/1Tech-X/Termux-Apktool.git
+
 then change directory to Termux-apktool
-cd Termux-Apktool
+
+$ cd Termux-Apktool
+
 Now install apktool 
-dpkg -i apktool.deb
+
+$ dpkg -i apktool.deb
 
 For decompile apk
 apktool d Appname.apk
